@@ -1,0 +1,199 @@
+body  {
+    background-image: url("https://fthmb.tqn.com/Z6bx0cQAoBcH44H4drCa3asaRnU=/960x0/filters:no_upscale()/about/Stocksy_txpe39e30f5m4L100_Medium_990821-588a38e53df78caebcf3ef6f.jpg");
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;     
+}
+p {
+  padding-top: 5px;
+  padding-left: 3%;
+  font-family: Helvetica, sans-serif;
+  font-size: 135%;
+  color: #555555;
+}
+
+.pillow {
+  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-left: 3%;
+}
+
+.bright-text {
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Marlett, sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.line {
+  max-width: 400px;
+  height: 3px;
+  color: #000000;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+}
+
+.line-lite {
+  max-width: 400px;
+  height: 3px;
+  color: #ffffff;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+
+
+
+.headline {
+font-family: Calibri, "Helvetica", san-serif;
+line-height: 1.5em;
+color: black;
+font-size: 20px;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+
+
+
+
+
+.navbar {
+  padding-top: 10px;
+  padding-right: 2%;
+  padding-bottom: 10px;
+  padding-left: 2%;
+}
+
+.navtext {
+  padding-top: 5px;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 180%;
+}
+/* ---------- *\
+     Projects
+\* ---------- */
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  margin: 2px;
+  background-color: $secondary-color;
+  overflow: hidden;
+  p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: 60%;
+    max-width: 80%;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+  &:hover {
+    cursor: pointer;
+    p {
+      transform: translate(-50%, -100%);
+      opacity: 1;
+    }
+    img {
+      opacity: 0.2;
+      transform: scale(1.1);
+    }
+  }
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+    transform-origin: 50% 0;
+    transition: 0.3s;
+  }
+}/* 8. Contact
+----------------------------------------*/
+
+#contact {
+  height: 370px;
+  background-image: url(http://massapequapainmanagementandrehabilitation.com/communities/2/000/001/387/882//images/5104425.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.social-media {  margin: 10px;  }
+
+#contact .container {  height: auto;  }
+
+#contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ /*---------footer -------*/
+
+
+
+
+footer
+footer {  background-color: #fafafa;  }
+
+footer .container {  padding: 16px;  }
+
+footer ul {  padding-left: 0;  }
+
+footer ul li {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  list-style: none;  
+}
+
+footer ul li a:active,
+footer ul li a:hover
+{
+  color: #ff3d00;
+}
+
+.footer-top-section {  height: 25px;  }
+
+.footer-bottom-section {
+  margin-top: 10px;
+  margin-top: .714rem;
+}
+
+
